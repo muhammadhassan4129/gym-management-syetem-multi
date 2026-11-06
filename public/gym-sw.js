@@ -82,7 +82,7 @@ self.addEventListener('fetch', (event) => {
         return (
           offlinePage ||
           new Response(
-            'Yaseen Gym: Connect to the internet and reload.',
+            'Gym Management System: Connect to the internet and reload.',
             {
               status: 503,
               headers: {
